@@ -3,7 +3,7 @@ services:
     build: .
     image: carolinemendes06/mural-flask:latest
     ports:
-      - "8070:5000"
+      - "8050:5000"
     environment:
       DB_HOST: db
       DB_PORT: "3306"
